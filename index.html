@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive bottom navigation</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item active-link">
+              <a href="#story" class="nav__link">
+                <i class="bx bx-radio nav__icon"></i>
+                <span class="nav__name">story</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#radio" class="nav__link">
+                <i class="bx bx-radio nav__icon"></i>
+                <span class="nav__name">radio</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#youtube" class="nav__link">
+                <i class="bx bx-music nav__icon"></i>
+                <span class="nav__name">youtube</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#wall" class="nav__link">
+                <i class="bx bx-message-square-detail nav__icon"></i>
+                <span class="nav__name">wall</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">
+                <i class="bx bx-edit-alt nav__icon"></i>
+                <span class="nav__name">blog</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#zapgpt" class="nav__link">
+                <i class="bx bx-message-dots nav__icon"></i>
+                <span class="nav__name">zapgpt</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#more" class="nav__link">
+                <i class="bx bx-grid-small nav__icon"></i>
+                <span class="nav__name">more</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <img src="assets/img/perfil.png" alt="" class="nav__img" />
+      </nav>
+    </header>
+
+    <main>
+      <!--=============== cover ===============-->
+      <section class="container section section__height" id="story">
+        <iframe src="https://theradio.fm/pages/cover"></iframe>
+      </section>
+
+      <!--=============== radios ===============-->
+      <section class="container section section__height" id="radio">
+        <iframe src="https://theradio.fm/pages/radio"></iframe>
+      </section>
+
+      <!--=============== youtube ===============-->
+      <section class="container section section__height" id="youtube">
+        <iframe src="https://theradio.fm/pages/youtube"></iframe>
+      </section>
+
+      <!--=============== wall ===============-->
+      <section class="container section section__height" id="wall">
+        <iframe src="https://theradio.fm/pages/wall"></iframe>
+      </section>
+
+      <!--=============== blog ===============-->
+      <section class="container section section__height" id="blog">
+        <iframe src="https://theradio.fm/pages/blog"></iframe>
+      </section>
+
+      <!--=============== zapgpt ===============-->
+      <section class="container section section__height" id="zapgpt">
+        <iframe src="https://theradio.fm/pages/zapgpt"></iframe>
+      </section>
+
+      <!--=============== more ===============-->
+      <section class="container section section__height" id="more">
+        <iframe src="https://theradio.fm/pages/dash"></iframe>
+      </section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
